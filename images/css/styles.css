@@ -1,0 +1,180 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1 {
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+/*****class selector*****************/
+/*Heading */
+.big-heading {
+  font-family: "Montserrat";
+  line-height: 1.5;
+  font-weight: 900;
+  color: white;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.title {
+  background-color: #ff4c68;
+}
+
+.container-fluid {
+  padding: 3% 15% 10%;
+}
+
+/* Navigatn Bar */
+.navbar-brand {
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-family: "Ubuntu";
+}
+
+.nav-item {
+  padding: 0 10px;
+  font-family: "Montserrat";
+  font-weight: 400;
+}
+
+.dwnld-btn {
+  margin-right: 10px;
+}
+
+.dog-position {
+  position: relative;
+}
+
+.dog {
+  transform: rotate(25deg);
+  width: 60%;
+  margin-top: 50px;
+  position: absolute;
+  right: 25%;
+}
+
+/* Second Section */
+.features {
+  width: 80%;
+  margin: auto;
+  background-color: #fff;
+  position: relative;
+}
+
+.fa-solid {
+  color: #ef8172;
+  padding: 100px 20px 20px;
+  width: 100%;
+}
+
+.fa-solid:hover {
+  color: #ff4c68;
+}
+
+.icon-head {
+  font-size: 1.5rem;
+  font-family: "Montserrat";
+}
+
+.icon-body {
+  color: #8f8f8f;
+  font-weight: 100;
+  padding: 5%;
+}
+
+/* Tesimonial Section */
+.testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.press {
+  background-color: #ef8172;
+  padding-bottom: 4%;
+}
+
+.press-img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing */
+.pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* cta section */
+.cta {
+  background-color: #ff4c68;
+  padding: 8% 20%;
+}
+
+.cta-head {
+  margin-bottom: 50px;
+  width: 70%;
+  margin: auto;
+  margin-bottom: 40px;
+  color: #fff;
+}
+
+/* footer section */
+.footer {
+  background-color: #fff;
+}
+
+.fa-envelope {
+  color: #000;
+}
+
+/* media properties */
+@media (max-width: 1028px) {
+  .title {
+    text-align: center;
+  }
+
+  .word {
+    width: 80%;
+    margin: auto;
+  }
+
+  .dog {
+    position: static;
+    width: 60%;
+    transform: rotate(0);
+  }
+
+  .dog-position {}
+}
